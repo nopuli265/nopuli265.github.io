@@ -1,0 +1,22 @@
+package bai1;
+
+public class Simple22 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int i;
+i =0;
+	if (false & (++i<100)) 
+	{
+		System.out.println(" Это не будет выведено на экран");
+	System.out.println("Если условия выполняют: " +i );}
+
+	if (false && (++i<100))
+	{
+		System.out.println(" Это не будет выведено на экран");
+		
+	System.out.println("Если условия выполняют: " +i );
+}
+	}
+
+	}
